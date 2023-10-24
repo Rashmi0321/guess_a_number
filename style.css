@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(177, 240, 240);
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(174, 183, 237);
+}
+h3{
+    font-size: 30px;
+}
+input{
+    height: 25px;
+    font-size: 20px;
+}
+button{
+    font-size: 18px;
+    background-color: rgb(177, 219, 222);
+    color: rgb(6, 13, 19);
+}
+p{
+    font-size: 20px;
+}
